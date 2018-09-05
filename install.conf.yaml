@@ -8,6 +8,7 @@
     ~/.bash:
     ~/.bashrc:
     ~/.dotfiles: ''
+    ~/.gitconfig:
     ~/.shell:
     ~/.vimrc:
 

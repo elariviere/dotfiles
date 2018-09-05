@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+
+[core]
+	autrocrlf = input
+
+[pull]
+    rebase = true
+
+[alias]
+    st = status
+    co = checkout
+    tree = log --graph --decorate --oneline
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+    path = ~/.gitconfig_local
+
