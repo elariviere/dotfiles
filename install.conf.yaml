@@ -5,9 +5,11 @@
 - clean: ['~']
 
 - link:
+    ~/.bash:
+    ~/.bashrc:
     ~/.dotfiles: ''
-    ~/.vimrc: vimrc
-    ~/.bashrc: bashrc
+    ~/.shell:
+    ~/.vimrc:
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
