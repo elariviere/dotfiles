@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "bash/plugins/fzf"]
+	path = bash/plugins/fzf
+	url = https://github.com/junegunn/fzf.git
