@@ -1,8 +1,14 @@
 # Fallback prompt
 export PS1=$'\[\e]0;$PWD\007\]\[\e[33m\][\D{%Y-%m-%d %H:%M.%S}]\[\e[0m\] \[\e[35m\]\w\[\e[0m\]\n\[\e[36m\][\u@\h]\[\e[0m\] \u27a4'
 
+function _update_ps1() {
+    PS1="$(~/go/bin/powerline-go -error $?)"
+}
+
 # Powerline prompt
-if [ -f `which powerline-daemon` ]; then
+if [[ "$TERM" != "linux" && -f `which powerline-go` ]]; then
+        PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+elif [ -f `which powerline-daemon` ]; then
     export LANG=en_US.utf8
     export POWERLINE_COMMAND=powerline
     export POWERLINE_CONFIG_COMMAND=powerline-config

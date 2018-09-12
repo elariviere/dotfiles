@@ -15,4 +15,5 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [~/.dotfiles/bash/plugins/fzf/install --all, Installing fzf] 
+    - [go get -u github.com/justjanne/powerline-go, Installing powerline-go]
 
