@@ -14,5 +14,7 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [~/.dotfiles/bash/plugins/fzf/install --all, Installing fzf] 
+    - [~/.dotfiles/bash/plugins/fzf/install --all, Installing fzf]
+    - [pip install --user powerline-status, Installing powerline]
+    - [pip install --user powerline-gitstatus, Installing powerline git status]
 
