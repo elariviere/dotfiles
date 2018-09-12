@@ -4,3 +4,6 @@
 [submodule "bash/plugins/fzf"]
 	path = bash/plugins/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "shell/fonts"]
+	path = shell/fonts
+	url = https://github.com/powerline/fonts.git
