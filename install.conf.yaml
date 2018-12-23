@@ -7,6 +7,8 @@
 - link:
     ~/.bash:
     ~/.bashrc:
+    ~/.config/powerline:
+        create: true
     ~/.dotfiles: ''
     ~/.gitconfig:
     ~/.shell:

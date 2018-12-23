@@ -1,0 +1,9 @@
+{
+    "segment_data" : {
+        "gitstatus": {
+            "args" : {
+                "use_dash_c": false
+            }
+        }
+    }
+}
