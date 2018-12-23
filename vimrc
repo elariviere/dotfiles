@@ -175,6 +175,7 @@ call plug#begin('~/.vim/bundle')
 
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 "------------------------------------------------------------
