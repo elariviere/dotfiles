@@ -172,6 +172,7 @@ endif
 "------------------------------------------------------------
 " vim-plug plugins
 call plug#begin('~/.vim/bundle')
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 "------------------------------------------------------------
