@@ -13,6 +13,7 @@
     ~/.dotfiles: ''
     ~/.gitconfig:
     ~/.shell:
+    ~/.vim:
     ~/.vimrc:
 
 - shell:
