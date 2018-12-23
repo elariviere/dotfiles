@@ -116,7 +116,7 @@ set t_vb=
  
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
-set cmdheight=2
+"set cmdheight=2
  
 " Display line numbers on the left
 set number
@@ -127,7 +127,7 @@ set notimeout ttimeout ttimeoutlen=200
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
  
- 
+set noshowmode 
 "------------------------------------------------------------
 " Indentation options {{{1
 "
