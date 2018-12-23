@@ -172,7 +172,9 @@ endif
 "------------------------------------------------------------
 " vim-plug plugins
 call plug#begin('~/.vim/bundle')
+
 Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 call plug#end()
 "------------------------------------------------------------
