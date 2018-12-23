@@ -9,6 +9,7 @@
     ~/.bashrc:
     ~/.config/powerline:
         create: true
+        path: config/powerline
     ~/.dotfiles: ''
     ~/.gitconfig:
     ~/.shell:
